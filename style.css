@@ -1,0 +1,91 @@
+body{
+    background-image: url('station.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+margin: auto;
+
+}
+h1{
+  font-size: small;  
+}
+h2{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 400%;
+    font-weight: 500;
+    font-style: italic;
+    color: rgb(231, 231, 208);
+}
+
+#start{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px; 
+    width:300px;
+    margin: 10px auto;
+    background-color: rgb(219, 150, 219);
+    
+}
+ #intermediate{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px; 
+    width:300px;
+    margin: 10px auto;
+    background-color: rgb(219, 150, 219); 
+ }
+
+#destination{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px; 
+    width: 300px;
+    margin: 10px auto;
+    background-color: rgb(219, 150, 219);
+}
+
+#calculate{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px; 
+    width: 300px;
+    margin: 10px auto;
+    background-color: rgb(230, 247, 4);
+}
+
+#mwanzo{
+    font-size: xx-large;
+    font-weight: 600;
+    color: rgb(3, 184, 49);
+}
+#mwisho{
+    font-size: xx-large;
+    font-weight: 600;
+    color: rgb(3, 184, 49);
+ }
+#intermediate-label{
+    font-size: xx-large;
+    font-weight: 600;
+    color: rgb(3, 184, 49);    
+}
+#result{
+    font-size: xx-large;
+    font-weight: 600;
+    color: rgb(156, 185, 179);
+    background-color: blueviolet;
+}

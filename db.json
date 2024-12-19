@@ -1,0 +1,51 @@
+{
+    "fareData": {
+        "Nairobi CBD": { 
+            "Westlands": 100, "Kikuyu": 150, "Juja": 200, "Kayole": 120, "Kangundo Road": 180,
+            "Kawangware": 90, "Uthiru": 110, "Umoja": 130 
+        },
+        "Westlands": { 
+            "Nairobi CBD": 100, "Kikuyu": 50, "Juja": 150, "Kayole": 100, "Kangundo Road": 170,
+            "Kawangware": 40, "Uthiru": 60, "Umoja": 120 
+        },
+        "Kikuyu": { 
+            "Nairobi CBD": 150, "Westlands": 50, "Juja": 50, "Kayole": 80, "Kangundo Road": 160,
+            "Kawangware": 70, "Uthiru": 50, "Umoja": 140 
+        },
+        "Juja": { 
+            "Nairobi CBD": 200, "Westlands": 150, "Kikuyu": 50, "Kayole": 90, "Kangundo Road": 140,
+            "Kawangware": 180, "Uthiru": 170, "Umoja": 160 
+        },
+        "Kayole": { 
+            "Nairobi CBD": 120, "Westlands": 100, "Kikuyu": 80, "Juja": 90, "Kangundo Road": 130,
+            "Kawangware": 100, "Uthiru": 110, "Umoja": 50 
+        },
+        "Kangundo Road": { 
+            "Nairobi CBD": 180, "Westlands": 170, "Kikuyu": 160, "Juja": 140, "Kayole": 130,
+            "Kawangware": 190, "Uthiru": 180, "Umoja": 150 
+        },
+        "Kawangware": { 
+            "Nairobi CBD": 90, "Westlands": 40, "Kikuyu": 70, "Juja": 180, "Kayole": 100, "Kangundo Road": 190,
+            "Uthiru": 20, "Umoja": 110 
+        },
+        "Uthiru": { 
+            "Nairobi CBD": 110, "Westlands": 60, "Kikuyu": 50, "Juja": 170, "Kayole": 110, "Kangundo Road": 180,
+            "Kawangware": 20, "Umoja": 120 
+        },
+        "Umoja": { 
+            "Nairobi CBD": 130, "Westlands": 120, "Kikuyu": 140, "Juja": 160, "Kayole": 50, "Kangundo Road": 150,
+            "Kawangware": 110, "Uthiru": 120 
+        }
+    },
+    "locations": [
+        "Nairobi CBD",
+        "Westlands",
+        "Kawangware",
+        "Uthiru",
+        "Umoja",
+        "Kikuyu",
+        "Juja",
+        "Kayole",
+        "Kangundo Road"
+    ]
+}

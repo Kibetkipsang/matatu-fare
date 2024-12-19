@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matatu Fare Calculator</title>     
+    <link rel="stylesheet" href="style.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDvF1aRKv2H0TxISsin-zwU1fJWJPyorxE"></script>
+</head>
+<body> 
+    <h1>CREATED BY DENNIS KIPSANG</h1>
+    <h2>Nairobi Matatu Fare Calculator</h1>
+    
+    <label for="start" id="mwanzo">Starting Point:</label>
+    <select id="start">
+        <option value="">None</option> <!-- Default option -->
+    </select>
+    
+    <label for="intermediate" id="intermediate-label">Intermediate </label>
+    <select id="intermediate">
+        <option value="">None</option> <!-- Default option -->
+    </select>
+    
+    <label for="destination" id="mwisho">Destination:</label>
+    <select id="destination">
+        <option value="">None</option> <!-- Default option -->
+    </select>
+    
+    <button id="calculate">Calculate Fare</button>
+    
+    <p id="result"></p>
+    
+    <script src="script.js"></script>
+</body>
+</html>
